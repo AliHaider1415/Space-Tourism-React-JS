@@ -1,0 +1,18 @@
+.container_4{
+    font-size: 1vw;
+    width: 40%;
+
+}
+.container_4 h3{
+    letter-spacing: 0.5vw;
+
+}
+.container_4 h1{
+    font-size: 3vw;
+    letter-spacing: 0.25vw;
+    font-family: 'Lora', serif;
+}
+.container_4 p{
+    font-size: 1.3vw;
+    color: gray;
+}

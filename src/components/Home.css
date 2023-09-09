@@ -1,0 +1,52 @@
+.container{
+    height: 100%;
+    background: url(./images/background-home-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.desc_container{
+    margin-top: 5%;
+    width: 25%;
+    min-height: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    color: rgb(215, 215, 237);
+}
+.desc_container h2{
+    font-weight: lighter;
+    letter-spacing: 0.25vw;
+    font-size: 1.5vw;
+}
+.desc_container h1{
+    font-size: 8vw;
+    font-family: 'Lora', serif;
+    margin: 0;
+    font-weight: lighter;
+    color: white;
+}
+.desc_container p{
+    line-height: 140%;
+    letter-spacing: 0.11vw;
+    margin-top: 10%;
+}
+.container button{
+    border: none;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    padding: 6% 1% 8.5% 1%;
+    font-size: 2vw;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+.container button:hover{
+    transition: 0.2s ease-out;
+    background-color: black;
+    color: white;
+}

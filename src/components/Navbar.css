@@ -1,0 +1,32 @@
+.Navbar ul li {
+    list-style: none;
+    float: left;
+    padding: 30px 20px 50px 20px;
+    font-size: 1vw;
+    margin: 0 15px 0 15px;
+    font-weight: lighter;
+}
+.Navbar ul li:last-child{
+    margin-right: 70px;
+}
+.Navbar ul li:hover{
+    transition: 0.2s;
+    border-bottom: solid 5px white;
+}
+.Navbar{
+    margin: 30px 0 0 1150px;
+    background-color: none; /* Use a semi-transparent background color */
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    backdrop-filter: blur(40px); /* Apply the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For cross-browser compatibility */
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.current_link{
+    border-bottom: solid 5px white;
+}

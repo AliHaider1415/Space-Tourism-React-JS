@@ -1,0 +1,40 @@
+.container_2{
+    display: flex;
+    flex-direction: column;
+    background: url(./images/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(239, 234, 234);
+}
+.pick_container{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pick_container p{
+    font-size: 1.6vw;
+    letter-spacing: 0.21vw;
+}
+.pick_container ul{
+    margin-right: 100px;
+    margin-top: 80px;
+    width: 20%;
+}
+.pick_container ul li{
+    list-style: none;
+    float : left;
+    font-size: 1vw;
+    padding: 5% 5% 5% 5%;
+    color: rgb(158, 158, 164);
+}
+.pick_container ul li:hover{
+    transition: 0.1s;
+    border-bottom: solid 3px white;
+}
+.current_link{
+    border-bottom: solid 2px white;
+}

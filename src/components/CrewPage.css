@@ -1,0 +1,56 @@
+.Crew_container{
+    height: 100%;
+    background: url(./images/background-crew-desktop.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(239, 234, 234);
+}
+.Crew_container p{
+    margin-top: 5%;
+margin-bottom:-5%;
+font-size: 1.3vw;
+letter-spacing: 0.2vw;
+margin-left: 15%;
+}
+
+.btn_container ul li{
+    list-style: none;
+    float: left;
+    color: white;
+    width: 20%;
+}
+.btn_container ul li button{
+    width: 20%;
+    padding: 7% 18% 7% 12%;
+    border-radius: 50%;
+    font-size: 1vw;
+    border: none;
+    background-color: rgb(22, 22, 59);
+    color: white;
+}
+.btn_container ul li button:hover{
+    transition: 0.2s ease;
+    color: white;
+    background-color: black;
+}
+.active_crew{
+    color: white;
+    background-color: black;
+}
+.btn_container {
+    width: 40%;
+    height: 10%;
+    margin-left: 10%;
+}
+.current_crew{
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5%;
+}

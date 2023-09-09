@@ -1,0 +1,19 @@
+.container_3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    width: 80%;
+    align-items: center;
+}
+.crew_desc{
+    width: 50%;
+}
+.crew_desc h1{
+    margin-left: 15%;
+    font-size: 3vw;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.3vw;
+}
+.crew_desc p{
+    color: rgb(193, 193, 200);
+}
